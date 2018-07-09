@@ -34,7 +34,7 @@ var testCases = []struct {
 	},
 }
 
-func TestBracket(t *testing.T) {
+func TestDowncase(t *testing.T) {
 	for _, tt := range testCases {
 		actual, err := Downcase(tt.input)
 		// We don't expect errors for any of the test cases
