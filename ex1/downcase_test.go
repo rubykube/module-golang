@@ -17,7 +17,7 @@ var testCases = []struct {
 		expected: "hello world",
 	},
 	{
-		input:    "HeloiS",
+		input:    "HeliOS",
 		expected: "helios",
 	},
 	{
