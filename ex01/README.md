@@ -4,6 +4,5 @@ Implement function that returns the string in lower case.(without using ```strin
 
 # Example
 
-``` input:    "Hello World"
-    expected: "hello world"
-```
+``` input:    "Hello World" ```
+``` expected: "hello world" ```
