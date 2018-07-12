@@ -1,7 +1,5 @@
 # module-golang
 
-[![Codacy Badge][1]][2]
-
 Learn Golang in this module
 
 * [Code Style guide](https://github.com/golang/go/wiki/CodeReviewComments)
