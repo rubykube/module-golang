@@ -18,4 +18,18 @@ func TestStack(t *testing.T) {
 			t.Error("TestStack failed...", i)
 		}
 	}
+
+	stack.Push(11)
+	stack.Push(12)
+	stack.Push(13)
+	stack.Push(14)
+	stack.Push(15)
+
+	for i := 15; i > 10; i-- {
+		item := stack.Pop()
+
+		if item != i {
+			t.Error("TestStack failed...", i)
+		}
+	}
 }

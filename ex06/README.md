@@ -4,5 +4,9 @@ Write a program that counts the frequency of letters in texts using parallel com
 
 Parallelism is about doing things in parallel that can also be done
 sequentially. A common example is counting the frequency of letters.
-Create a function that returns the total frequency of each letter in a
-list of texts and that employs parallelism.
+
+Create two functions:
+Function Frequency(text string), to sequentially count letter frequencies in a single text.
+Function ConcurrentFrequency(texts []string), to perform this exercise on
+parallelism using Go concurrency features.
+Make concurrent calls to Frequency and combine results to obtain the answer.
