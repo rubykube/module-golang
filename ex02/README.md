@@ -28,6 +28,8 @@ This image is a great example of the Caesar Cipher: ![Caesar Cipher][1]
 For example:
 
 Giving "iamapandabear" as input to the encode function returns the cipher "ldpdsdqgdehdu". Obscure enough to keep our message secret in transit.
+Note: Giving "I am a panda bear." as input to the encode function also returns "ldpdsdqgdehdu" cipher, because you should
+downcase all strings and ignore all non-letter characters. So, if you encode and decode "I am a panda bear.", you should get "iamapandabear".
 
 When "ldpdsdqgdehdu" is put into the decode function it would return
 the original "iamapandabear" letting your friend read your original
@@ -43,6 +45,7 @@ Here's an example:
 
 Given the key "aaaaaaaaaaaaaaaaaa", encoding the string "iamapandabear"
 would return the original "iamapandabear".
+Note: keys, which consists of only 'a' letters ('a', 'aaa', 'aaaaaaaaaaaaa') are forbidden
 
 Given the key "ddddddddddddddddd", encoding our string "iamapandabear"
 would return the obscured "lpdsdqgdehdu"
