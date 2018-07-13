@@ -1,7 +1,6 @@
 package stack
 
 //package main
-
 //import "fmt"
 
 type Stack struct {
