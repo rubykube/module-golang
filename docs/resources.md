@@ -12,3 +12,4 @@ They will introduce you some basic concepts  on different topics.
 * [Go by example](https://gobyexample.com/)
 * [Golang Wiki](https://github.com/golang/go/wiki)
 * [The Go Programming Language book](https://owlweb.ru/wp-content/uploads/2017/04/donovan-a.-kernigan-b.-yazyk-programmirovaniya-go-programmirovanie-dlya-professionalov-2016.pdf)
+* [Delve debugger for Golang](https://github.com/derekparker/delve)
