@@ -7,3 +7,6 @@ Feel free to use this video tutorial
 https://www.youtube.com/watch?v=Utf-A4rODH8
 A Ubuntu base can be downloaded from here
 https://wiki.ubuntu.com/Base
+
+#Remarks
+If the test doesn't compile on your machine try to run 'go get github.com/rendon/testcli first'
