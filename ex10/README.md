@@ -1,5 +1,5 @@
 ## Implement simple Blockchain
-A blockchain is a growing list of records, called blocks, which are linked using cryptography. Blockchains which are readable by the public are widely used by cryptocurrencies. Having fun implementing a blockchain using Golang.
+A blockchain is a growing list of records, called blocks, which are linked using cryptography. Blockchains which are readable by the public are widely used by cryptocurrencies. Have fun implementing a blockchain using Golang.
 
 * [How Does Blockchain Work](https://blockgeeks.com/guides/blockchain-consensus/)
 * [Bitcoin - Beyond the Basics](https://www.youtube.com/watch?v=Dn6q9nveJbA)
