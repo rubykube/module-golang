@@ -17,5 +17,5 @@ One example of BFT in use is bitcoin, a peer-to-peer digital cash system. The bi
 * https://www.youtube.com/watch?v=_e4wNoTV3Gw
 
 ### API
-* [Basic prototype Blockchein (sha256)](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/)
-* [Holochein](https://github.com/holochain/holochain-proto)
+* [Basic prototype Blockchain (sha256)](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/)
+* [Holochain](https://github.com/holochain/holochain-proto)
