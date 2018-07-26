@@ -19,50 +19,50 @@ var (
 		Output      []string
 		WaitSeconds int
 	}{
-		//{
-		//    2,
-		//    []string{
-		//        "0.1",
-		//    },
-		//    []string{
-		//        "worker:1 spawning",
-		//        "worker:1 sleep:0.1",
-		//        "worker:1 stopping",
-		//    },
-		//    1,
-		//},
+		{
+			2,
+			[]string{
+				"0.1",
+			},
+			[]string{
+				"worker:1 spawning",
+				"worker:1 sleep:0.1",
+				"worker:1 stopping",
+			},
+			1,
+		},
 
-		//{
-		//    2,
-		//    []string{
-		//        "0.1",
-		//        "0.2",
-		//    },
-		//    []string{
-		//        "worker:1 spawning",
-		//        "worker:1 sleep:0.1",
-		//        "worker:2 spawning",
-		//        "worker:2 sleep:0.2",
-		//        "worker:1 stopping",
-		//        "worker:2 stopping",
-		//    },
-		//    1,
-		//},
+		{
+			2,
+			[]string{
+				"0.1",
+				"0.2",
+			},
+			[]string{
+				"worker:1 spawning",
+				"worker:1 sleep:0.1",
+				"worker:2 spawning",
+				"worker:2 sleep:0.2",
+				"worker:1 stopping",
+				"worker:2 stopping",
+			},
+			1,
+		},
 
-		//{
-		//    1,
-		//    []string{
-		//        "0.1",
-		//        "0.2",
-		//    },
-		//    []string{
-		//        "worker:1 spawning",
-		//        "worker:1 sleep:0.1",
-		//        "worker:1 sleep:0.2",
-		//        "worker:1 stopping",
-		//    },
-		//    1,
-		//},
+		{
+			1,
+			[]string{
+				"0.1",
+				"0.2",
+			},
+			[]string{
+				"worker:1 spawning",
+				"worker:1 sleep:0.1",
+				"worker:1 sleep:0.2",
+				"worker:1 stopping",
+			},
+			1,
+		},
 
 		{
 			10,
