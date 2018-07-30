@@ -25,3 +25,10 @@ Specifications:
 ## Level: advanced
 
 * Provide pure TCP API instead of HTTP.
+
+## Hints & Links
+
+* [Go By Example: Mutexes](https://gobyexample.com/mutexes)
+* [sync.RWMutex](https://golang.org/pkg/sync/#RWMutex)
+* [raft implementation](https://github.com/hashicorp/raft)
+
