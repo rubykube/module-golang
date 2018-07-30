@@ -15,16 +15,23 @@ The data must be replicated using Raft consensus (just use [hashicorp's
 implementation](https://github.com/hashicorp/raft)), the data must be flushed
 to disk after applying to follower nodes.
 
-The service must provide HTTP API.
+The service must provide TCP API.
 
-Specifications:
-- Don't use boltdb as backend, it's unmaintained and just slow. Use
+## TCP Protocol specification:
+
+### Request packet
+
+- operation: 1 byte
+- key: 16 bytes
+- value: 8 bytes
+
+### Response packet
+- code: 1 byte
+- value: 8 bytes
+
+* Don't use boltdb as backend, it's unmaintained and just slow. Use
     [raft-fastlog](https://github.com/tidwall/raft-fastlog) as backend LogStore
     and StableStore
-
-## Level: advanced
-
-* Provide pure TCP API instead of HTTP.
 
 ## Hints & Links
 
